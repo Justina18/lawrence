@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-family: poppins, sans-serif;
@@ -96,7 +96,7 @@ header nav a {
     color: #000;
 }
 
-.hero-text h4{
+.hero-text h4 {
     margin: 22px 0 0 0;
 }
 
@@ -106,9 +106,10 @@ header nav a {
     font-family: raleway, Arial, sans-serif;
 }
 
-.text{
+.text {
     margin-top: 10px;
 }
+
 .text .btn {
     padding: 15px 30px;
     font-size: 12px;
@@ -143,12 +144,15 @@ header nav a {
     justify-content: space-around;
     padding: 100px;
     align-items: center;
+    font-family: outfit, Arial, Helvetica, sans-serif;
 }
-.statistics h2{
-    font-weight: 300;
-    
+
+.statistics h2 {
+    font-weight: 700;
+
 }
-.statistics h1{
+
+.statistics h1 {
     font-size: 4em;
 }
 
@@ -159,15 +163,41 @@ header nav a {
     justify-content: space-around;
     align-items: center;
     background: #FBFBFB;
+
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.stat h1 {
+    margin: 0;
+}
+
+.stat p{
+    margin: 8px 0 0 8px;
+    font-weight: 500;
 }
 
 .products {
     padding: 50px;
 }
 
-.products h2 {
+.products  .shop {
     text-align: center;
     margin-bottom: 50px;
+}
+ .shop h4{
+    color: #EDA1A2;
+}
+
+.shop p{
+    font-size: 3rem;
+    margin: 12px 0 0 40px;
 }
 
 .product-list {
@@ -196,7 +226,8 @@ header nav a {
     font-size: 18px;
     margin: 10px 0;
 }
-.jtrj{
+
+.jtrj {
     display: flex;
     justify-content: space-around;
     align-items: center;
