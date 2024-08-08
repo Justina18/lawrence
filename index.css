@@ -44,7 +44,7 @@ header {
 }
 
 .icons img {
-    width: 20px;
+    width: 30px;
 }
 
 .links h5 {
@@ -86,7 +86,7 @@ header nav a {
     position: absolute;
     top: 50%;
     /* left: 100%; */
-    transform: translateY(50%) translateX(-110px);
+    transform: translateY(75%) translateX(-110px);
 }
 
 .hero-text h1 {
@@ -102,8 +102,8 @@ header nav a {
 
 .hero-text p {
     font-size: 12px;
-    font-weight: 500;
-    font-family: raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-family: poppins , Arial, sans-serif;
 }
 
 .text {
@@ -135,7 +135,7 @@ header nav a {
 }
 
 .hero-image img {
-    width: 500px;
+    width: 550px;
     height: auto;
 }
 
