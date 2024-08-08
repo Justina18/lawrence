@@ -178,24 +178,29 @@ header nav a {
     margin: 0;
 }
 
-.stat p{
+.stat p {
     margin: 8px 0 0 8px;
     font-weight: 500;
 }
 
 .products {
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.products  .shop {
+.products .shop {
     text-align: center;
     margin-bottom: 50px;
 }
- .shop h4{
+
+.shop h4 {
     color: #EDA1A2;
 }
 
-.shop p{
+.shop p {
     font-size: 3rem;
     margin: 12px 0 0 40px;
 }
@@ -203,18 +208,20 @@ header nav a {
 .product-list {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 30px;
+    width: 80%;
 }
 
 .product {
     background: #f9f9f9;
-    /* box-shadow: -1px 4px 11px -5px rgba(221, 221, 221, 0.73); */
     text-align: center;
+    border-radius: 12px;
 }
 
 .product img {
     max-width: 100%;
     height: auto;
+    border-radius: 12px 12px 0 0;
 }
 
 .product h3 {
@@ -231,6 +238,32 @@ header nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 100px;
+}
+
+.jtrj p {
+    font-size: 14px;
+    color: #7a7979;
+    font-weight: 800;
+}
+
+.jtrj h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Outfit, Arial, sans-serif;
+}
+
+.jtrj section {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.jjs h4 {
+    display: flex;
+    justify-content: start;
+    margin:20px 0 0 30px;
 }
 
 .rating {
